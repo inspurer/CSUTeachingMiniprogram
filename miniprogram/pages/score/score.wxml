@@ -1,0 +1,56 @@
+<view class='contain'>
+    <image src='/images/notice.png'></image>
+    <view class='xian'></view>
+    <view class='notice container' style="--marqueeWidth--:-60em">
+          <view class='announcement-text'>{{notice_content}}</view>
+    </view>
+</view>
+
+<view class='mt20 bg-white radius padding'>
+  <view class="cu-bar bg-white">
+    <view class="action">
+      <text class="cuIcon-titles text-green"></text>
+      <text class="text-lg text-bold">每日推荐</text>
+    </view>
+  </view>
+  <text class='daliy text-lg' decode="{{true}}">&emsp;&emsp;{{recommand}}\n</text>
+</view>
+
+<view class="score-page">
+  <view class="mod-a mt20">
+    <view class="mod">
+      <text>欢迎您! {{name}}</text>
+    </view>
+
+    <view class="mod">
+      <text class="key">订阅新成绩消息</text>
+      <switch class="state" checked="{{isSubed==0?false:true}}" color="#7cba23" bindchange="changeSwitch" />
+
+    </view>
+  </view>
+
+  <view class="mod-a mt20">
+    <view class="mod">
+      <text class="key">获得学分</text>
+      <text class="value">{{totalCredit}}</text>
+
+    </view>
+
+    <view class="mod">
+      <text class="key">平均分</text>
+      <text class="value">{{average}}</text>
+    </view>
+
+    <view class="mod">
+      <text class="key">专业排名</text>
+      <text class="value">{{rank}}</text>
+    </view>
+
+    <view class="mod"  bindtap="scoreList">
+      <text class="key">所有成绩</text>
+      <image class="arrow-r" src="/images/arrow-r.png"></image>
+    </view>
+  </view>
+
+
+</view>

@@ -1,0 +1,13 @@
+@import "../../colorui/main.wxss";
+@import "../../colorui/icon.wxss";
+
+.place{
+height: 50rpx;
+}
+.responsor{
+  width: 400rpx;
+  height: 400rpx;
+  display: flex;
+  align-items: center;
+  margin: 0 auto
+}

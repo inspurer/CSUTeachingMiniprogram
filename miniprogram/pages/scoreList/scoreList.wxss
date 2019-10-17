@@ -1,0 +1,96 @@
+.table {
+  border: 0px solid darkgray;
+}
+
+.tr {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.f {
+  width: 70%;
+  height: 45px;
+  padding-left: 5px;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.s {
+  width: 15%;
+  height: 45px;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.t {
+  width: 15%;
+  height: 45px;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.bg-l {
+  background: snow;
+}
+
+.bg-d {
+  background: #d2e6b3;
+}
+
+.th1 {
+  width: 70%;
+  justify-content: center;
+  background: #7cba23;
+  color: #fff;
+  display: flex;
+  height: 3rem;
+  align-items: center;
+}
+
+.th2 {
+  width: 15%;
+  justify-content: center;
+  background: #7cba23;
+  color: #fff;
+  display: flex;
+  height: 3rem;
+  align-items: center;
+}
+
+.th3 {
+  width: 15%;
+  justify-content: center;
+  background: #7cba23;
+  color: #fff;
+  display: flex;
+  height: 3rem;
+  align-items: center;
+}
+
+.bottom {
+  display: flex;
+  margin-top: 20px;
+  font-size: 48rpx;
+  color: #7cba23;
+  align-items: center;
+  justify-content: center;
+}
+
+/* 返回顶部 */
+.goTop{
+  height: 90rpx;
+  width: 90rpx;
+  position: fixed;
+  bottom: 70rpx;
+  background: rgba(0,0,0,.3);
+  right: 50rpx;
+  border-radius: 50%;
+}

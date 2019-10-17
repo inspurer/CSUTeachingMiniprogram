@@ -1,0 +1,144 @@
+.wrapper {
+  width: 100%;
+  height: 640rpx;
+  background-color: #7cba23;
+  position: absolute;
+}
+
+.loginform {
+  height: 500rpx;
+  position: relative;
+  top: 280rpx;
+}
+
+#owl-login {
+  width: 500rpx;
+  height: 200rpx;
+  position: absolute;
+  top: -182rpx;
+  left: 50%;
+  margin-left: -200rpx;
+}
+
+.head {
+  width: 400rpx;
+  height: 200rpx;
+}
+
+.hand {
+  width: 68rpx;
+  height: 68rpx;
+  border-radius: 80rpx;
+  background-color: #472d20;
+  transform: scaleY(0.6);
+  transition: 0.3s ease-out;
+  position: absolute;
+  left: 25rpx;
+  bottom: -16rpx;
+}
+
+.hand-r {
+  left: 315rpx;
+}
+
+.arms {
+  top: 120rpx;
+  position: absolute;
+  width: 100%;
+  height: 80rpx;
+  overflow: hidden;
+}
+
+.arm {
+  width: 80rpx;
+  height: 130rpx;
+  position: absolute;
+  left: 40rpx;
+  top: 80rpx;
+  transition: 0.3s ease-out;
+  transform: rotate(-20deg);
+}
+
+.arm-r {
+  transform: rotate(20deg) scaleX(-1);
+  left: 290rpx;
+}
+
+.hand-password {
+  transform: translateX(95rpx) translateY(-30rpx) scale(0.7);
+}
+
+.hand-r-password {
+  transform: translateX(-90rpx) translateY(-30rpx) scale(0.7);
+}
+
+.arm-password {
+  transform: translateY(-80rpx) translateX(80rpx);
+}
+
+.arm-r-password {
+  transform: translateY(-80rpx) translateX(-72rpx) scaleX(-1);
+}
+
+.control-group {
+  width: 700rpx;
+  height: 460rpx;
+  margin: 0 auto;
+  padding: 20rpx;
+  background-color: white;
+  border-radius: 10rpx;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+  /* border: 1px solid red; */
+}
+
+.control {
+  width: 650rpx;
+  height: 100rpx;
+  margin: 20rpx auto;
+  border: 1px solid #f1f1f1;
+  border-radius: 10rpx;
+}
+.control input{
+  height: 100rpx;
+  line-height: 100rpx;  
+  padding-left: 20rpx;
+  font-size: 36rpx;
+}
+
+.title {
+  color: #ffffff;
+  font-size: 64rpx;
+  margin-top: 60rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.bottom{
+  height: 60rpx;
+  line-height: 60rpx;
+  font-size: 33rpx;
+  /* border: 1px solid red; */
+}
+.bottom text{
+  display: block;
+  margin-top: 25rpx;
+  width: 50%;
+}
+
+.bottom text:first-child{
+  float: left;
+  color: #7cba23;
+}
+.bottom text:last-child{
+  float: right;
+  color: #7cba23;
+  text-align: right;
+}
+
+.bg-green{
+  margin-top: 25rpx;
+  background: #7cba23;
+  color: #ffffff;
+}

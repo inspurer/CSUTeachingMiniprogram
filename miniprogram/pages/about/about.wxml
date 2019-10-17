@@ -1,0 +1,59 @@
+<view class='margin-sm bg-white radius padding'>
+
+  <view class="cu-bar bg-white">
+    <view class="action">
+      <text class="cuIcon-titles text-green"></text>
+      <text class="text-lg text-bold">关于小程序</text>
+    </view>
+  </view>
+  <view class='text-grey text-lg'>1、小程序由作者于2019年10月中旬开发完成。</view>
+  <view class='text-grey text-lg'>2、旨在为中南学子提供方便快捷的教务系统移动端浏览体验，欢迎大家提供宝贵改进意见。</view>
+
+
+  <view class="cu-bar bg-white">
+    <view class="action">
+      <text class="cuIcon-titles text-green"></text>
+      <text class="text-lg text-bold">使用说明</text>
+    </view>
+  </view>
+  <view class='text-grey text-lg'>1、使用学号和教务系统密码登录即可。</view>
+  <view class='text-grey text-lg'>2、第一次使用需要注册，将学号和教务系统密码保存至服务器。</view>
+  <view class='text-grey text-lg'>3、注册后学号将和微信账号绑定，非注册时微信号无法登录该小程序，可重置数据解绑。</view>
+  <view class='text-grey text-lg'>4、如注册后在教务系统修改了密码，使用新密码会登录失败，可重置数据解决。</view>
+    <view class='text-grey text-lg'>5、重置数据会清除你在服务器的一切信息，请谨慎操作。</view>
+    <view class='text-grey text-lg'>5、订阅新成绩消息，一旦教务系统录入新成绩，你可以在移动端上收到微信的推送消息。</view>
+
+    <view class="cu-bar bg-white">
+    <view class="action">
+      <text class="cuIcon-titles text-green"></text>
+      <text class="text-lg text-bold">服务条款</text>
+    </view>
+  </view>
+  <view class='text-grey text-lg'>1、由于业务逻辑，不可避免地需要在服务器保存您的学号和教务系统密码等信息，作者郑重承诺决不滥用该信息。</view>
+    <view class='text-grey text-lg'>2、如不放心，可重置数据。</view>
+
+
+  <view class="cu-bar bg-white">
+    <view class="action">
+      <text class="cuIcon-titles text-green"></text>
+      <text class="text-lg text-bold">交流反馈</text>
+    </view>
+  </view>
+  <view class='text-grey text-lg'>可以通过客服直接联系我，也可进群反馈</view>
+  <view class='text-grey text-lg  margin-top-xs' bindtap='copy' data-copy='881070220'>QQ群：
+    <text class='text-blue underline text-sub'>881070220</text>
+  </view>
+
+
+  <view class="cu-bar bg-white">
+    <view class="action">
+      <text class="cuIcon-titles text-green"></text>
+      <text class="text-lg text-bold">赞助作者</text>
+    </view>
+  </view>
+  <view class='text-grey text-lg'>用于抵扣服务器开销</view>
+  <view class='place'></view>
+
+  <image data-src="/images/responsor.png" src="/images/responsor.png" class='responsor' bindlongpress='saveImg'></image>
+
+</view>

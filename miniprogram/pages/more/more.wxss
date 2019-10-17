@@ -1,0 +1,80 @@
+@import "../../colorui/main.wxss";
+@import "../../colorui/icon.wxss";
+
+.mt20 {
+  margin-top: 20rpx;
+}
+
+.mod-a {
+  padding: 0 20rpx;
+  border: 1px solid #f0f0f0;
+  background-color: #fff;
+}
+
+.mod {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 90rpx;
+  padding: 0 20rpx;
+}
+
+.arrow-r {
+  width: 9rpx;
+  height: 17rpx;
+  margin-left: 10rpx;
+}
+
+.score-page {
+  display: flex;
+  flex-direction: column;
+  font-size: 32rpx;
+  color: #676767;
+  padding: 30rpx 0;
+}
+
+.logo {
+  width: 300rpx;
+  height: 300rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.logotext {
+  width: 200rpx;
+  height: 60rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+top {
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-bottom: 30px;
+  background-color: #fff;
+}
+
+button {
+  margin: 0;
+  border: 0;
+  background-color: transparent;
+  outline: none;
+  font-size: 32rpx;
+  padding-bottom: 5rpx;
+  padding-top: 5rpx;
+  color: #7cba23;
+}
+
+.mod-b {
+  border: 1px solid #f0f0f0;
+  background-color: #fff;
+}
+
+.mt40{
+  margin-top: 40px;
+}

@@ -1,0 +1,113 @@
+@import "../../colorui/main.wxss";
+@import "../../colorui/icon.wxss";
+.mt20{
+  margin-top: 20px;
+}
+
+.daliy{
+  color: #7cba23;
+}
+
+.score-page{
+  display: flex;
+  flex-direction: column;
+  font-size: 32rpx;
+  color: #676767;
+}
+
+.mod-a{
+  padding: 0 20rpx;
+  border: 1px solid #f0f0f0;
+  background-color: #fff;
+}
+
+.mod{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 90rpx;
+  padding: 0 20rpx;
+}
+
+.arrow-r{
+  width: 9rpx;
+  height: 17rpx;
+  margin-left: 10rpx;
+}
+
+/*首页跑马灯效果*/
+@keyframes around {
+  from {
+   margin-left: 100%;
+  }
+  to {
+   /* var接受传入的变量 */
+   margin-left: var(--marqueeWidth--);
+  }
+ }
+ 
+.marquee_container{
+  background-color: #ffffff;
+  height: 50rpx;
+  line-height: 44rpx;
+  position: relative;
+  width: 100%;
+  margin-top:0rpx;
+}
+.marquee_container:hover{
+  /* 不起作用 */
+  animation-play-state: paused;
+}
+.announcement-text{
+  color:#7cba23;
+  font-size: 28rpx;
+  display: inline-block;
+  white-space: nowrap;
+  animation-name: around;
+  animation-duration: 15s;  /*过渡时间*/
+  animation-iteration-count: infinite;
+  animation-timing-function:linear;
+}
+/*首页跑马灯效果*/
+
+.contain{
+  position: relative;
+  width: 670rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  background:rgba(253,253,253,1);
+  margin: 20rpx auto 0;
+   z-index: 10;
+  font-size: 30rpx;
+  overflow:auto;
+  box-shadow:0px 0px 7rpx 0px rgba(83,152,95,0.18);
+  border-radius:10rpx;
+}
+.contain image{
+  display: inline-block;
+  width: 30rpx;
+  height: 30rpx;
+  margin: 9rpx 25rpx;
+}
+.contain .xian{
+  width: 2rpx;
+  height: 36rpx;
+  background: rgba(135,135,135,0.5);
+  position: absolute;
+  left: 80rpx;
+  top:7rpx;
+}
+.contain .notice{
+  position: absolute;
+  z-index: 11;
+  width: 538rpx;
+  margin-left: 82rpx;
+  padding: 0 25rpx;
+  height: 36rpx;
+  line-height: 36rpx;
+  top: 7rpx;
+  font-size: 26rpx;
+  color: #888888;
+  overflow: hidden;
+}

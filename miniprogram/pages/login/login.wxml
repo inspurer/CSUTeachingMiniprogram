@@ -1,0 +1,33 @@
+<view class="wrapper">
+  <text class='title'>中南教务通</text>
+
+  <view class="loginform">
+    <view id="owl-login">
+
+      <image class="head" src="/images/owl-login.png"></image>
+      <view class="hand {{inputPassword ? 'hand-password' : ''}}"></view>
+      <view class="hand hand-r {{inputPassword ? 'hand-r-password' : ''}}"></view>
+      <view class="arms">
+        <image class="arm {{inputPassword ? 'arm-password' : ''}}" src="/images/owl-login-arm.png"></image>
+        <image class="arm arm-r {{inputPassword ? 'arm-r-password' : ''}}" src="/images/owl-login-arm.png"></image>
+      </view>
+    </view>
+    <view class="control-group">
+      <view class="control">
+        <input type="number" bindinput="bindAccountInput" placeholder="学号" value="{{account}}"></input>
+      </view>
+      <view class="control">
+        <input type="password" bindinput="bindPasswordInput" bindfocus="pwdFocus" bindblur="pwdBlur" placeholder="教务系统密码" value="{{password}}"></input>
+      </view>
+      <view class='flex flex-direction'>
+        <button class='bg-green margin-tb-sm lg' bindtap="bindIdentity" disabled="{{isLogining}}">登录</button>
+      </view>
+
+      <view class='bottom'>
+        <text bindtap="reset">重置数据</text>
+        <text bindtap="answer">遇到问题</text>
+      </view>
+
+    </view>
+  </view>
+</view>

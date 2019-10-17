@@ -1,0 +1,26 @@
+<view class="table">
+<view class="tr bg-l">
+<view class="th1">课程</view>
+ <view class="th2">学分</view>
+ <view class="th3">成绩</view>
+
+ </view>
+
+ <block wx:for="{{scoreList}}" wx:key="{[latest]}">
+ <view class="tr bg-d" wx:if="{{index % 2 == 0}}">
+  <view class="f">{{item.courseName}}</view>
+  <view class="s">{{item.credit}}</view>
+  <view class="t">{{item.grade}}</view>
+
+ </view>
+ <view class="tr" wx:else>
+  <view class="f">{{item.courseName}}</view>
+  <view class="s">{{item.credit}}</view>
+  <view class="t">{{item.grade}}</view>
+ </view>
+ </block>
+</view>
+
+<text class='bottom'>我也是有底线的~</text>
+
+<image src='/images/up.png' class='goTop' hidden='{{!floorstatus}}' bindtap="goTop"></image>

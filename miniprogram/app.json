@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/score/score",
+    "pages/kb/kb",
+    "pages/about/about",
+    "pages/scoreList/scoreList",
+    "pages/updateinfo/updateinfo",
+    "pages/more/more"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarTitleText": "中南教务通",
+    "navigationBarBackgroundColor": "#7cba23",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "backgroundColor": "#FAFAFA",
+    "borderStyle": "white",
+    "color": "#b2b2b2",
+    "selectedColor": "#7cba23",
+    "list": [
+      {
+        "pagePath": "pages/score/score",
+        "text": "我的成绩"
+      },
+      {
+        "pagePath": "pages/kb/kb",
+        "text": "我的课表"
+      },
+      {
+        "pagePath": "pages/more/more",
+        "text": "关于程序"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
